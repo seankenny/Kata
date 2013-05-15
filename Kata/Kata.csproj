@@ -47,6 +47,7 @@
     <Compile Include="Calculator\CalculatorTest.cs" />
     <Compile Include="Fibonacci\FibonacciTest.cs" />
     <Compile Include="Fibonacci\Fibonacci.cs" />
+    <Compile Include="FizzBuzzKata\FizzBuzzTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TitleCase\TitleCase.cs" />
     <Compile Include="TitleCase\TitleCaseTest.cs" />
@@ -54,6 +55,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
